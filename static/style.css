@@ -1,0 +1,26 @@
+:root, html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-break: 1.5;
+	display: grid;
+	grid-template-columns: 200px 1fr 1fr;
+	grid-template-rows: 3rem 1fr 2rem;
+	grid-column-gap: 0.5rem;
+	background-color: #1e1e1e;
+	color: #ccc;
+}
+
+* {
+	margin: initial;
+	padding: initial;
+}
